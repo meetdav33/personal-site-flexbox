@@ -23,7 +23,6 @@ body {
 
 .header {
     display: inline-flex;
-    justify-content: center;
 }
 
 .section-items{
@@ -99,12 +98,19 @@ a:hover {
       #profilepic{
         width: 100px;
         height: 100px;
+        align-self: center;
       }
 
       .sections{
         flex-direction: column;
+        align-content:normal;
       }
-     
-
+     .header{
+        align-items: baseline;
+        padding-left: 10px;
+     }
+     .section-items {
+        padding-left: 0px;
+     }
     }
 
